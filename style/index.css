@@ -1,0 +1,134 @@
+header {
+    margin: 0 auto 5em;
+}
+
+.content {
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.content nav {
+    display: flex;
+    height: 2.5em;
+    margin-bottom: 2em;
+    align-items: center;
+}
+
+.content nav ul {
+    margin: 0 auto;
+}
+
+.content nav ul li {
+    padding: 0em 1em 1em;
+}
+
+.search-box{
+    display: flex;
+    justify-content: space-between;
+    width: 20em;
+    height: auto;
+    padding:0.3em;
+    margin: 1em;
+    border-bottom: 0.1px solid black;
+}
+
+.search-box input{
+    border: none;
+    outline: none;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pokemon {
+    display: flex;
+    margin: 1em 1em;
+    justify-content: space-between;
+    padding: 1em;
+    border-radius: 0.5em;
+    border: 0.15em solid rgb(223, 0, 0);
+    width: 21em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.poke-info{
+    width: 60%;
+}
+
+.poke-name{
+    display: flex;
+    font-size: 1.2em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.poke-name svg{
+    margin-left: 0.5em;
+}
+
+.poke-type{
+    display: flex;
+    justify-content: left;
+    margin: 0.5em 0;
+    color: white;
+}
+
+.poison{
+    background-color: purple;
+    margin-right: auto;
+    width: 5em;
+    padding: 0.1em 0.2em;
+    border-radius: 0.4em;
+    text-align: center;
+}
+
+.grass{
+    background-color: green;
+    width: 5em;
+    padding: 0.1em 0.2em;
+    border-radius: 0.4em;
+    text-align: center;
+}
+
+.normal{
+    background-color: gray;
+    width: 5em;
+    padding: 0.1em 0.2em;
+    border-radius: 0.4em;
+    text-align: center;
+}
+
+.selected-page{
+    background-color: red;
+    color: white;
+}
+
+#user-container{
+    position: absolute;
+    text-align: center;
+    bottom: -5em;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+#user-container img{
+    height: 10em;
+    width: 10em;
+    border-radius: 5em;
+    border: 0.5em solid black;
+}
+
+#username{
+    font-size: 1.3em;
+    margin: 0.5em;
+}
+
+#poke-img{
+    width: 30%;
+    height: auto;
+}
